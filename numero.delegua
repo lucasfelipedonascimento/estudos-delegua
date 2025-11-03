@@ -1,0 +1,25 @@
+// numero.delegua
+// Exemplos com números e variáveis
+
+var a = 10;
+var b = 3.14;
+var soma = a + b;
+var sub = a - b;
+var mult = a * b;
+var div = a / b;
+
+escreva("a = " + a);
+escreva("b = " + b);
+escreva("soma = " + soma);
+
+// Operadores incrementais
+// a++ / a-- (se suportado)
+
+// Conversão entre tipos (exemplo conceitual)
+var textoNumero = "42";
+var numeroConvertido = 42; // usar função parseInt/parseFloat se disponível
+
+escreva("textoNumero = " + textoNumero);
+
+// Resumo: Tipos numéricos (inteiros e decimais) e operações básicas.
+// Mostra exemplos de atribuição, operações aritméticas, e conversão entre texto e número.

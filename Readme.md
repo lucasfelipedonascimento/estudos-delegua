@@ -1,32 +1,50 @@
-# README — Estudos: index.delegua
+# README — Estudos: Delégua
 
-Descrição
----------
-Arquivo de estudo com exemplos básicos da sintaxe de Delégua em [index.delegua](index.delegua). Mostra uso de escrita na saída, declaração/atribuição de variáveis e constantes.
+## Descrição
 
-Conteúdo principal
-------------------
-- Função de saída: [`escreva`](index.delegua) — usada para imprimir valores.
-- Variáveis e exemplos:
-  - [`a`](index.delegua), [`b`](index.delegua) — declarações simples.
-  - [`c`](index.delegua), [`d`](index.delegua) — declaração múltipla com valores.
-  - [`e`](index.delegua), [`f`](index.delegua) — atribuição múltipla.
-- Alteração de valor:
-  - atribuição posterior exemplificada em [`a`](index.delegua).
-- Constantes:
-  - [`g`](index.delegua), [`h`](index.delegua), [`i`](index.delegua) — declara constantes com valores imutáveis.
-  - exemplos de múltiplas constantes: [`ab`](index.delegua), [`bc`](index.delegua), [`cd`](index.delegua), [`de`](index.delegua).
-- Comentários no arquivo que explicam regras de correspondência entre identificadores e valores.
+Este repositório contém exemplos básicos e organizados por tópicos da sintaxe de Delégua. Cada tópico foi separado em um arquivo próprio para facilitar estudos e execução.
 
-Observações rápidas
--------------------
-- A quantidade de identificadores à esquerda deve corresponder à quantidade de valores à direita (caso contrário ocorre erro).
-- Constantes não podem ser reatribuídas (comentado no arquivo).
+## Arquivos por tópico
 
-Como abrir
-----------
-- Abrir o arquivo: [index.delegua](index.delegua).
+- index.delegua
 
-Licença
--------
-O projeto contém o arquivo de licença em [LICENSE](LICENSE).
+  - Arquivo principal (índice) com uma saudação e referência aos arquivos de tópico.
+
+- texto.delegua
+
+  - Resumo: Exemplos e explicações sobre textos (strings e caracteres).
+  - Conteúdo: literais, concatenação, acesso por índice, interpolação conceitual e métodos comuns (trim, upper/lower, split, replace).
+
+- numero.delegua
+
+  - Resumo: Tipos numéricos (inteiros e decimais) e operações básicas.
+  - Conteúdo: atribuição, operações aritméticas, exemplos de conversão entre texto e número.
+
+- vetores.delegua
+
+  - Resumo: Vetores (listas) — estruturas que armazenam zero ou mais valores.
+  - Conteúdo: criação, acesso por índice, operações comuns (adição/remoção conceitual), concatenação e iteração.
+
+- dicionarios.delegua
+
+  - Resumo: Dicionários (objetos) — estruturas chave:valor.
+  - Conteúdo: criação, acesso a propriedades, adição/alteração de campos e iteração conceitual.
+
+- tuplas.delegua
+  - Resumo: Tuplas — estruturas imutáveis para agrupar valores em sequência fixa.
+  - Conteúdo: criação, acesso por índice e desestruturação conceitual.
+
+## Como usar / executar
+
+1. Abra o arquivo de interesse no seu ambiente de execução ou editor.
+2. Execute o arquivo (por exemplo: `delegua texto.delegua`) ou copie/cole o código no interpretador/IDE que estiver usando para Delégua.
+3. Verifique a saída com a função `escreva` para cada exemplo.
+
+## Observações
+
+- Alguns trechos são exemplificações conceituais (comentadas) e podem depender da implementação do interpretador de Delégua em uso.
+- Caso queira, execute cada arquivo individualmente para ver os exemplos de cada tópico.
+
+## Licença
+
+Consulte o arquivo LICENSE no repositório para detalhes sobre a licença do projeto.

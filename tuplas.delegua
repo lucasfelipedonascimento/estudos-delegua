@@ -1,0 +1,13 @@
+// Resumo: Tuplas — estruturas imutáveis para agrupar valores heterogêneos em uma sequência fixa.
+// Exemplos de criação, acesso por índice e atribuição por desestruturação (conceitual).
+
+// tuplas.delegua
+// Exemplos com tuplas (valores fixos agrupados)
+
+var ponto = (10, 20); // sintaxe conceitual; adapte conforme a linguagem
+escreva("X: " + ponto[0]);
+escreva("Y: " + ponto[1]);
+
+// Atribuição por desestruturação (se suportado)
+// var (x, y) = ponto;
+// escreva(x);

@@ -1,0 +1,29 @@
+// Resumo: Exemplos e explicações sobre textos (strings e caracteres).
+// Inclui literais, concatenação, interpolação conceitual, índices positivos e negativos,
+// e métodos comuns como trim, upper/lower, split e replace (se disponíveis na linguagem).
+
+// texto.delegua
+// Exemplos com strings (texto)
+
+// Literais
+var s1 = "Olá";
+var s2 = 'Mundo';
+
+// Concatenação
+var saudacao = s1 + ", " + s2 + "!";
+escreva(saudacao);
+
+// Interpolação (se suportado)
+// Exemplo genérico: use concatenação ou uma função format se existir
+// Índices e acesso a caracteres (algumas versões usam caracteres por índice)
+se escreva(saudacao[0]);
+
+// Métodos comuns (exemplos conceituais)
+// ...existing code...
+// toUpperCase / toLowerCase (se suportado)
+// split / trim / replace
+
+// Exemplo de interpolação simples usando concatenação
+var nome = "Alice";
+var mensagem = "Olá, " + nome + "! Bem-vinda.";
+escreva(mensagem);

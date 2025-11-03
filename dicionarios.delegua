@@ -1,0 +1,23 @@
+// Resumo: Dicionários (objetos) — estruturas chave:valor para agrupar dados nomeados.
+// Exemplos de criação, acesso, adição de propriedades e iteração conceitual.
+
+// dicionarios.delegua
+// Exemplos com dicionários/objetos
+
+var pessoa = {
+    nome: "João",
+    idade: 30,
+    cidade: "São Paulo"
+};
+
+escreva("Nome: " + pessoa.nome);
+escreva("Idade: " + pessoa.idade);
+
+// Adicionar/alterar propriedades
+pessoa.profissao = "Engenheiro";
+escreva("Profissão: " + pessoa.profissao);
+
+// Iterar propriedades (conceitual)
+// for (var chave in pessoa) {
+//     escreva(chave + ": " + pessoa[chave]);
+// }

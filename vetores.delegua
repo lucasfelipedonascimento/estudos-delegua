@@ -1,0 +1,27 @@
+// Resumo: Vetores (listas) — estruturas que armazenam zero ou mais valores
+// Exemplos de criação, acesso por índice, operações comuns e concatenação.
+
+// vetores.delegua
+// Exemplos com vetores (listas)
+
+var lista = [1, 2, 3, 4];
+escreva("Lista inicial: " + lista);
+
+// Acesso por índice (0-based)
+escreva("Primeiro elemento: " + lista[0]);
+
+// Adicionar/Remover (conceitual)
+// lista.push(5);
+// lista.pop();
+
+// Iteração (conceitual)
+// for (var i = 0; i < lista.length; i++) {
+//     escreva(lista[i]);
+// }
+
+// Métodos comuns: map, filter, reduce (se suportado)
+
+// Concatenar listas
+var outra = [5, 6];
+var junt = lista + outra; // ou lista.concat(outra) se existir
+escreva("Juntadas: " + junt);
