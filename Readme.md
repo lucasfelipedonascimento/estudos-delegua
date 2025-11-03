@@ -1,5 +1,9 @@
 # README — Estudos: Delégua
 
+## Resumo sobre Delégua
+
+Delégua é uma linguagem de script voltada para ensino e exemplos didáticos, com sintaxe simples e palavras-chave em português. Ela facilita a aprendizagem dos conceitos fundamentais de programação — como variáveis, tipos primitivos, estruturas de dados (vetores, tuplas, dicionários) e operações básicas — sem a complexidade de linguagens industriais. Este repositório organiza exemplos por tópico para facilitar o estudo e a experimentação.
+
 ## Descrição
 
 Este repositório contém exemplos básicos e organizados por tópicos da sintaxe de Delégua. Cada tópico foi separado em um arquivo próprio para facilitar estudos e execução.
