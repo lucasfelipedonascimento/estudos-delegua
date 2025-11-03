@@ -1,0 +1,39 @@
+escreva("Olá, Mundo!");
+
+// Variáveis: primeira estrutura de dados que desenvolvedores aprendem
+// possuem um nome e armazenam um valor em memória
+variavel a = 1
+variavel b = 2;
+escreva(a);
+escreva(b);
+
+var c, var d = 3, 4;
+escreva(c);
+escreva(d);
+
+// Delégua suporta atribuição múltipla de variáveis
+var e, f = 5, 6;
+escreva(e);
+escreva(f);
+// podem ter valores alterados a qualquer momento
+a = "Lucas";
+escreva(a);
+
+// Contantes: também armazenam valores em memória e possuem atribuição múltipla
+// porém não permitem alteração de valores
+const g = "Lucas";
+escreva(g);
+
+// g = "Felipe" - erro
+
+constante h = "Felipe";
+escreva(h);
+fixo i = "Nascimento";
+escreva(i);
+
+constante ab, bc = "Lucas", "Felipe";
+fixo cd, de = "Nascimento", "Padilha"
+
+// A quantidade de identificadores (nome da variável) à esquerda tem de ser igual a quantidade de 
+// valores (valor armazenado na variável) à direita, caso contrário é gerado erro
+// const abc, abcd = 1 - erro
