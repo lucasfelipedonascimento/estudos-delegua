@@ -1,0 +1,16 @@
+funcao executarPrimeiraFuncao() {
+  escreva("Testar primeira função")
+}
+
+funcao executarSegundaFuncao() {
+  escreva("Testar segunda função")
+}
+
+função rodarAntes() {
+    escreva("Rodar antes das funções recebidas.\n")
+
+    // deve pegar todas as funções do código e executar dentro
+    executarPrimeiraFuncao() 
+    executarSegundaFuncao() 
+}
+rodarAntes()
